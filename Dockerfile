@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 
 # Asetetaan ympäristömuuttuja 
-
+ENV APP_NAME="oma-kontti"
 
 # Käynnistyskomento
 CMD ["python", "app.py"]
